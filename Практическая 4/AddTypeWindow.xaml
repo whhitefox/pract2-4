@@ -1,0 +1,16 @@
+﻿<Window x:Class="Практическая_4.AddTypeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практическая_4"
+        mc:Ignorable="d"
+        Title="AddTypeWindow" Height="150" Width="400">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" Margin="10,0,10,0">
+            <Label Content="Название" />
+            <TextBox x:Name="NameTextBox" Margin="0,0,0,10" />
+            <Button x:Name="AddButton" Content="Добавить" Click="AddButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
